@@ -159,9 +159,8 @@ accuracy                          0.83      183
 ```
 ECG/
 ├── csvs/                              # Input ECG CSV files
-│   ├── calm_*.csv                     # Calm state recordings (5 files)
-│   ├── excited_*.csv                  # Excited state recordings (12 files)
-│   └── stress_*.csv                   # (skipped in binary task)
+│   ├── calm_*.csv                     # Calm state recordings (5 files)       
+│   └── excited*.csv                    # Excited state recordings (12 files)
 ├── plots/                             # Output inference visualization plots
 │   ├── calm_1_inference.png
 │   └── excited_1_inference.png
@@ -199,4 +198,5 @@ ECG/
 - EarlyStopping with best validation checkpoint
 - Attention mechanisms for interpretability
 - ONNX/TFLite export for deployment
+
 
