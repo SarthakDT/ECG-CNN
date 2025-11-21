@@ -29,7 +29,7 @@ pip install tensorflow numpy pandas scikit-learn scipy matplotlib
 Place CSV files in `csvs/` folder with naming convention:
 - `calm_*.csv` — calm state examples (5 files)
 - `excited_*.csv` — excited state examples (12 files)
-- Files with prefix `stress_` are skipped (not used in binary task)
+
 
 **CSV Structure:**
 - One or more numeric columns; first numeric column (or voltage-like) used as ECG signal
@@ -199,3 +199,4 @@ ECG/
 - EarlyStopping with best validation checkpoint
 - Attention mechanisms for interpretability
 - ONNX/TFLite export for deployment
+
